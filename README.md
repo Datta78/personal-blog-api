@@ -1,21 +1,24 @@
-# personal-blog-api
-REST API for Personal Blog - Flask + Python
 # Personal Blog API
 
-REST API for Personal Blog built with Python & Flask.
+A clean REST API for managing personal blog posts built with Python & Flask.
 
 ## ✨ Features
 - Get all blog posts
-- Add new blog post
-- CORS enabled for frontend connection
-- Simple JSON responses
+- Add new blog post with title, content, and tags
+- CORS enabled (ready for frontend connection)
+- Simple and extensible structure
 
 ## 🛠️ Tech Stack
 - Python 3
-- Flask
+- Flask (Web Framework)
 - Flask-CORS
+- JSON for data storage
 
 ## 🚀 How to Run
+
 ```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the API
 python app.py
