@@ -1,11 +1,11 @@
 # Personal Blog API - Dattatray Bhosale
-# Strong Backend Project for Recruiters
 
 from flask import Flask, jsonify, request
 from datetime import datetime
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 
 # Sample Blog Posts
 posts = [
