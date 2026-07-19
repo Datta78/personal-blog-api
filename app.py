@@ -6,6 +6,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
+
 # Sample Blog Posts
 posts = [
     {
